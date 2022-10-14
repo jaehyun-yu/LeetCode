@@ -1,6 +1,6 @@
 class Solution {
-    public int firstMissingPositive(int[] nums) {
-		int answer = 0;
+    public int firstMissingPositive(int[] nums) {		
+        int answer = 0;
 		Set<Integer> set = new HashSet<>();
 		Arrays.sort(nums);
 
@@ -25,6 +25,6 @@ class Solution {
 				}
 			}			
 		}
-        return answer;
+        return answer;        
     }
 }
